@@ -28,7 +28,7 @@
   .viewer-wrap{display:grid;grid-template-columns:1fr 300px;gap:14px}
   @media(max-width:900px){.viewer-wrap{grid-template-columns:1fr}}
   #canvas-holder{position:relative;background:radial-gradient(ellipse at 50% 30%,#241B14 0%,#100C0A 75%);border:1px solid var(--line);border-radius:12px;overflow:hidden;height:600px}
-  #canvas-holder canvas{display:block}
+  #canvas-holder canvas{display:block;touch-action:none}
   .cam-hint{position:absolute;left:12px;bottom:10px;font-size:11.5px;color:var(--muted);background:rgba(20,16,16,.72);padding:5px 10px;border-radius:6px;pointer-events:none}
   .side{display:flex;flex-direction:column;gap:12px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
